@@ -1,0 +1,98 @@
+.black {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #212320;
+	width: 10%;
+	height: 100%;
+}
+
+.brightred {
+	position: absolute;
+	top: 0;
+	left: 10%;
+	background: #aa0541;
+	width: 55%;
+	height: 50%;
+} 
+.middlered {
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	background: #8c082f;
+	width: 55%;
+	height: 50%;
+} 
+.darkred {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #5b1b29;
+	width: 35%;
+	height: calc(100%/3);
+} 
+.middlegreen {
+	position: absolute;
+	top: calc(100%/3);
+	right: 0;
+	background: #394933;
+	width: 35%;
+	height: calc(100%/3);
+} 
+.darkgreen {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #162b02;
+	width: 35%;
+	height: calc(100%/3);
+} 
+@media screen and (max-width: 700px) {
+.black {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #212320;
+	width: 100%;
+	height: 10%;
+}
+.brightred {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	background: #aa0541;
+	width: 50%;
+	height: 30%;
+} 
+.middlered {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	background: #8c082f;
+	width: 50%;
+	height: 30%;
+} 
+.darkred {
+	position: absolute;
+	top: 40%;
+	right: 0;
+	background: #5b1b29;
+	width: 100%;
+	height: 20%;
+} 
+.middlegreen {
+	position: absolute;
+	top: 60%;
+	right: 0;
+	background: #394933;
+	width: 100%;
+	height: 20%;
+} 
+.darkgreen {
+	position: absolute;
+	bottom: ;
+	right: 0;
+	background: #162b02;
+	width: 100%;
+	height: 20%;
+} 
